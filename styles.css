@@ -1,0 +1,30 @@
+
+h1{
+    color: red;
+}
+
+#display-container{
+     height: 100px;
+     width: 524px;
+     background-color: blanchedalmond;
+}
+#buttons-container{
+    height: 200px;
+    width:524px;
+    background-color: burlywood;
+    display: flex;
+    flex-wrap: wrap;
+}
+.button{
+    height: 50px;
+    width: 125px;
+    background-color: gray;
+    border-style: solid;
+    display: flex;
+    flex-wrap: nowrap;
+        
+    
+}
+.button:hover{
+    background-color: orangered;
+}
